@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=EB+Garamond:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+header{
+    position: relative;
+}
+.header-1{
+    background-color: rgb(59, 179, 227);
+}
+.nav-link{
+    font-size: 15px;
+}
+.contact-us{
+    border-radius: 80px;
+    background-color: rgb(59, 179, 227);
+color: white;
+}
+.nav-link:hover{
+background-color: rgb(59, 179, 227);
+color: white;
+border-radius: 80px;
+}
+.contact-us:hover{
+background-color: rgb(7, 80, 109);
+}
+.navbar-1 {
+    position: static;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+    transition: top 5s linear 3s;
+  }
+  
+  .navbar-1.hidden {
+    top: -40px;
+    display: none;
+  }
+  
+  .navbar-new {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .95);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.25);
+    transition: top 5s linear 3s;
+  }
+  
+  .navbar-new.hidden {
+    top: -40px;
+    display: none;
+  }
+.logo{
+    background-color: white;
+    max-width: 30%;
+    position: absolute;
+    margin-top: -55px;
+    border-radius: 20px;
+}
+
+.banner{
+    position: relative;
+    height: 550px;
+    background-color: black;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+.banner::before{
+    background: url("images/banner-01.jpg") no-repeat;
+    content: "";
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+.caption{
+    width: 50%;
+    padding: 50px;
+}
+.caption h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.heading{
+    max-width: 43%;
+}
+.heading h1{
+    font-family: 'EB Garamond', serif;
+}
+
+.wrapper{
+    width: 100%;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+   }
+  
+  .carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 50px;
+  } 
+  
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 45px;
+    margin: 0 15px;
+    outline: none;
+    border-radius: 80px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  }
+  .heading1{
+    max-width: 60%;
+  }
+  .heading1{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+  }
