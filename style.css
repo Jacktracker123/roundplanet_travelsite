@@ -118,6 +118,7 @@ background-color: rgb(7, 80, 109);
     line-height: 50px;
   } 
   
+
   .owl-dots{
     text-align: center;
     margin-top: 40px;
@@ -137,9 +138,41 @@ background-color: rgb(7, 80, 109);
     background: #0072bc!important;
   }
   .heading1{
-    max-width: 60%;
+    max-width: 80%;
   }
   .heading1{
     font-size: 50px;
     font-family: 'EB Garamond', serif;
+  }
+
+  .discover-content{
+    max-width: 80%;
+  }
+
+.discover-content p{
+  color: rgb(68, 67, 67);
+}
+
+  .discover-img img{
+    border-radius: 8px;
+  }
+
+  .discover-btn button{
+    border-radius: 60px;
+  }
+
+.card-name{
+  gap: 20px;
+  /* border-top: 1px solid grey; */
+}
+
+  .card-name img{
+    border-radius: 60px;
+  }
+
+
+  @media only screen and (max-width:768px){
+    .discover-content{
+      width: 100%;
+    }
   }
