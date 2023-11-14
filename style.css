@@ -171,9 +171,12 @@ input::-webkit-input-placeholder{
   padding: 40px;
 }
 
-.en-img{
+.en-img:hover{
   background-color: #34a2ec;
 
+}
+.en-img,.dis-img{
+  width: 100%;
 }
 
 .middle {
@@ -187,7 +190,7 @@ input::-webkit-input-placeholder{
   text-align: center;
 }
 
-.en-imgs{
+.en-imgs:hover{
   background-color: #34a2ec;
 
 }
@@ -243,6 +246,7 @@ footer{
   display: none;
 }
 
+
   @media only screen and (max-width:768px){
     .footer-logo,.footer-links,.caption h1,.right-nav,.nav-icon-1,.right-nav{
       display: none;
@@ -276,11 +280,19 @@ footer{
     display: block;
     margin-left: 60%;
   }
+
   .navbar-new-bar{
-    margin-left: 50%;
-    margin-top: -18%;
+    margin-left: 60%;
+    margin-top: -12%;
   }
-  /* .navbar-1 .logo{
-    z-index: -1;
-  } */
+  
+.dis-heading{
+  text-align: center;
+}
+.discover-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   }
