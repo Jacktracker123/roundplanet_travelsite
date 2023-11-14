@@ -122,9 +122,22 @@ background-color: rgb(7, 80, 109);
     border-radius: 60px;
   }
 
+.dis-img{
+  width: 100%;
+  height: 100%;
+}
+
+.card{
+  width: 100%;
+}
+
 .card-name{
   gap: 20px;
   /* border-top: 1px solid grey; */
+}
+
+.card-1,.card-2,.card-3,.card-4{
+  border: none;
 }
 
   .card-name img{
@@ -134,6 +147,7 @@ background-color: rgb(7, 80, 109);
   .review-container {
     padding: 40px 0;
   }
+  
   .slide-container-1 {
     margin: 0 30px;
     overflow: hidden;
@@ -246,6 +260,15 @@ footer{
   display: none;
 }
 
+.ban-blue{
+  gap: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.578);
+}
+
+.ban-blue-1{
+  border-left: 1px solid rgba(255, 255, 255, 0.578);
+}
+
 
   @media only screen and (max-width:768px){
     .footer-logo,.footer-links,.caption h1,.right-nav,.nav-icon-1,.right-nav{
@@ -293,6 +316,22 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.ban-blue{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ban-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ban-blue{
+  gap: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.578);
 }
 
   }
