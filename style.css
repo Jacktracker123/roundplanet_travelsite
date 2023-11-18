@@ -102,13 +102,36 @@ background-color: rgb(7, 80, 109);
     font-family: 'EB Garamond', serif;
 }
 
-
-
   .heading1{
     font-size: 50px;
     font-family: 'EB Garamond', serif;
   }
 
+.mouse-section{
+ position: relative;
+ z-index: -1;
+ text-align: center;
+}
+
+.mouse{
+  position: relative;
+  left: 100px;
+  background: url("images/banner-btm.png") no-repeat;
+  width: 215px;
+  height: 65px;
+  left: 42%;
+  margin-top: -60px;
+}
+
+.mouse i{
+  font-size: 22px;
+  animation: bouncing-loader 0.6s infinite alternate;
+}
+@keyframes bouncing-loader {
+  to {
+    transform: translate3d(0, 40px, 0);
+  }
+}
 
 .discover-content p{
   color: rgb(68, 67, 67);
@@ -268,7 +291,21 @@ footer{
 .ban-blue-1{
   border-left: 1px solid rgba(255, 255, 255, 0.578);
 }
-
+/* .card-test{
+  border: none;
+} */
+.card-test:hover{
+  border-color: rgb(0, 162, 255);
+}
+.list-group-item:hover{
+  border-color: rgb(0, 162, 255);
+}
+.f-link{
+  color: rgb(170, 168, 168);
+}
+.f-link:hover{
+  color: white;
+}
 
   @media only screen and (max-width:768px){
     .footer-logo,.footer-links,.caption h1,.right-nav,.nav-icon-1,.right-nav{
